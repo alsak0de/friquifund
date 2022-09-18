@@ -1,7 +1,7 @@
 
-#Efforts
+# Efforts
 
-##NGOs we are collaborating with:
+## NGOs we are collaborating with:
 
 **AEIRaval:** Associació Educativa Integral del Raval: Treballem amb els col·lectius més vulnerables, amb més dificultats per a la inclusió social en una societat que presenta desigualtats d’oportunitats i on, sovint, la vulnerabilitat s’hereta de generació en generació.
 
@@ -11,7 +11,7 @@
 
 **Scientia:**  Desarrollo de competencias digitales a gran escala, accesible para todos, con un impacto medible,  y mucho más sostenible 😉
 
-##Other NGOs and efforts we know about:
+## Other NGOs and efforts we know about:
 
 **Barcelona digital talent:** We aim to fight the digital talent gap in order to promote market competitiveness. We want to position Barcelona as a talent capital and, to achieve this, we are committed to training in digital skills and attracting new digital talent to the city.
 
@@ -29,7 +29,7 @@
 
 **Fundación Privada Nous Cims** es una entidad sin ánimo de lucro constituida en Barcelona en el año 2015. Crea y desarrolla proyectos sociales innovadores, transformadores y sostenibles en los ámbitos de la empleabilidad, el bienestar emocional y el desarrollo global con el objetivo de impactar en las personas más vulnerables, en especial mujeres, jóvenes y niños, tanto en el entorno más cercano como en países emergentes.
 
-##Related:
+## Related:
 
 **donalo.org:** Aquest és un lloc per vendre, llogar, intercanviar i compartir béns i serveis amb els altres membres del mercat.
 
