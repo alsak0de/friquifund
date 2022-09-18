@@ -1,15 +1,9 @@
 # Site settings
-title: 'inUtil, AI powered efficiency'
-email: info@inutil.info
+title: 'FriquiFund'
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://inutil.info" # the base hostname & protocol for your site
+url: "https://friquifund.ml" # the base hostname & protocol for your site
 
-twitter_username: BotGasolin
-github_username: inUtil-info
-linkedin_username: botgasolin
-facebook_username: GasolinBot
-instagram_username: gasolinbot
 
 # Build settings
 markdown: kramdown
