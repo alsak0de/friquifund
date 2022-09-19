@@ -1,6 +1,6 @@
-![ background image]("/img/efforts.jpg") 
-
 # Efforts
+
+![efforts](/img/efforts.jpg){:height="278px" width="590px"}
 
 ## NGOs we are collaborating with:
 
