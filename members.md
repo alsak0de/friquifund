@@ -3,13 +3,24 @@ layout: peoplelist
 title: Members
 ---
 
+# Here comes the sun, durun-durun
 
-<ul>
+<table>
+    <tr>
+    <th>Name</th>
+    <th>Purpose</th>
+    <th>Badge</th>     
+  </tr>
+  
+  
 {% for member in site.data.members %}
-  <li>
- <!---   <a href="https://github.com/{{ member.github }}"> --->
-      {{ member.name }}
-    </a>
-  </li>
+  <!---{% for i in (1..4) %} --->
+    <tr>
+      <td>member.name</td>
+      <td>member.purpose</td>
+      <td>El badge</td>
+    </tr>
 {% endfor %}
-</ul>
+</table>
+
+
