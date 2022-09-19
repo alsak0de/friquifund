@@ -3,8 +3,13 @@ layout: peoplelist
 title: Members
 ---
 
+
+<ul>
 {% for member in site.data.members %}
-   <li>
+  <li>
+ <!---   <a href="https://github.com/{{ member.github }}"> --->
       {{ member.name }}
-   </li>
+    </a>
+  </li>
 {% endfor %}
+</ul>
