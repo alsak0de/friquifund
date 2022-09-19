@@ -1,3 +1,4 @@
+![ background image]("/img/efforts.jpg") 
 
 # Efforts
 
