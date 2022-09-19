@@ -3,10 +3,22 @@
 <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
 
 {% include head.html %}
+
+
+<header>
+    <div class="header-content">
+        <div class="header-content-inner">
+            <img src="/img/logo_friquifund2.png" alt="friquifund">
+            <hr>
+            <p>Our members list. Care to join us?</p>
+            <hr>
+        </div>
+    </div>
+</header>
   
   
 <body>
-  <p>Here comes the sun, durun-durun</p>  
+
   
 {% for member in site.data.members %}
         <div class="badge-base LI-profile-badge" data-locale="es_ES" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="{{member.lnkdnuser}}" data-version="v1"><a class="badge-base__link LI-simple-link" href="{{member.badgelink}}">{{member.name}}</a></div>
