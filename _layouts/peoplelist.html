@@ -9,37 +9,12 @@
          <img alt="friquifund" src="/img/logo_friquifund.png">
       </a>
     <hr>
-    <h3>Our members' list. Care to join us?</h3>
-    <hr>
   
    <div class="content">
-  
-    
-{% for member in site.data.members %}
+   <h3>Our members' list. Care to join us?</h3>     
+    {% for member in site.data.members %}
         <span class="badge-base LI-profile-badge" data-locale="es_ES" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="{{member.lnkdnuser}}" data-version="v1"><a class="badge-base__link LI-simple-link" href="{{member.badgelink}}">{{member.name}}</a></span>
-{% endfor %}
-
+    {% endfor %}
      </div>  
 </body>
-  
-  <!--- <a class="badge-base__link LI-simple-link" href="{{member.badgelink}}">{{member.name}}</a> --->
-  
-  <!--- <table>
-    <tr>
-    <th>Name</th>
-    <th>Purpose</th>
-    <th>Badge</th>     
-  </tr> --->
-  
-    <!---
-    <tr>
-      <td>{{ member.name }}</td>
-      <td>{{ member.purpose }}</td>
-      <td>
-     /td>
-    </tr>  --->
-
-
 </html>
-
-
