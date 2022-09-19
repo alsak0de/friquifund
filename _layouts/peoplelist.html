@@ -6,27 +6,29 @@
   
   
 <body>
-# Here comes the sun, durun-durun
+  <p>Here comes the sun, durun-durun</p>  
+  
+{% for member in site.data.members %}
+        <div class="badge-base LI-profile-badge" data-locale="es_ES" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="{{member.lnkdnuser}}" data-version="v1"><a class="badge-base__link LI-simple-link" href="{{member.badgelink}}">{{member.name}}</a></div>
+{% endfor %}
 
-<table>
+</body>
+  
+  <!--- <table>
     <tr>
     <th>Name</th>
     <th>Purpose</th>
     <th>Badge</th>     
-  </tr>
+  </tr> --->
   
-  
-{% for member in site.data.members %}
+    <!---
     <tr>
       <td>{{ member.name }}</td>
       <td>{{ member.purpose }}</td>
       <td>
-        <div class="badge-base LI-profile-badge" data-locale="es_ES" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="{{member.lnkdnuser}}" data-version="v1"><a class="badge-base__link LI-simple-link" href="{{member.badgelink}}">{{member.name}}</a></div>
-       /td>
-    </tr>
-{% endfor %}
-</table>
-</body>
+     /td>
+    </tr>  --->
+
 
 </html>
 
