@@ -1,5 +1,5 @@
 ---
-layout: linkedinlisting
+layout: peoplelist
 title: Members
 ---
 
