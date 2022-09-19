@@ -13,14 +13,14 @@
         <div class="header-content-inner">
             <img src="/img/logo_friquifund.png" alt="friquifund">
             <hr>
-            <h1>Our members list. Care to join us?</h1>
+            <h3>Our members' list. Care to join us?</h3>
             <hr>
         </div>
     </div>
 
   
 {% for member in site.data.members %}
-        <div class="badge-base LI-profile-badge" data-locale="es_ES" data-size="medium" data-theme="light" data-type="HORIZONTAL" data-vanity="{{member.lnkdnuser}}" data-version="v1"><a class="badge-base__link LI-simple-link" href="{{member.badgelink}}">{{member.name}}</a></div>
+        <span class="badge-base LI-profile-badge" data-locale="es_ES" data-size="medium" data-theme="light" data-type="HORIZONTAL" data-vanity="{{member.lnkdnuser}}" data-version="v1"><a class="badge-base__link LI-simple-link" href="{{member.badgelink}}">{{member.name}}</a></span>
 {% endfor %}
 
 </body>
