@@ -8,19 +8,13 @@
 
   
 <body>
-    <h1><a href="https://friquifund.ml/">FriquiFund</a></h1>
+    <a href="https://friquifund.ml/">
+         <img alt="friquifund" src="/img/logo_friquifund.png">
+      </a>
     <hr>
     <h3>Our members' list. Care to join us?</h3>
     <hr>
-  <!---  
-  <div class="header-content">
-        <div class="header-content-inner">
-            <img src="/img/logo_friquifund.png" alt="friquifund">
-            
-        </div>
-    </div> --->
-
-  
+    
 {% for member in site.data.members %}
         <span class="badge-base LI-profile-badge" data-locale="es_ES" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="{{member.lnkdnuser}}" data-version="v1"><a class="badge-base__link LI-simple-link" href="{{member.badgelink}}">{{member.name}}</a></span>
 {% endfor %}
