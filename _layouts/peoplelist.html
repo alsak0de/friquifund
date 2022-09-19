@@ -1,22 +1,25 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
 
 {% include head.html %}
-  
-<body>
-    <a href="https://friquifund.ml/">
+  <body>
+    
+ <a href="https://friquifund.ml/">
          <img alt="friquifund" src="/img/logo_friquifund.png">
       </a>
     <hr>
-  
-   <div class="content">
-   {{ content }} 
-   </div>    
+    <div class="content">
+      {{ content }}
+      
+      {% for member in site.data.members %}
+      <div class="badge-base LI-profile-badge" data-locale="es_ES" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="{{member.lnkdnuser}}" data-version="v1"><a class="badge-base__link LI-simple-link" href="{{member.badgelink}}">{{member.name}}</a></div>
+     {% endfor %}
+      
+    </div>
      
-    {% for member in site.data.members %}
-        <span class="badge-base LI-profile-badge" data-locale="es_ES" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="{{member.lnkdnuser}}" data-version="v1"><a class="badge-base__link LI-simple-link" href="{{member.badgelink}}">{{member.name}}</a></span>
-    {% endfor %}
-     
-</body>
+    <footer>     
+        <hr>
+    </footer>
+  </body>
 </html>
