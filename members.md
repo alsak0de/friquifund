@@ -14,7 +14,6 @@ title: Members
   
   
 {% for member in site.data.members %}
-  <!---{% for i in (1..4) %} --->
     <tr>
       <td>member.name</td>
       <td>member.purpose</td>
