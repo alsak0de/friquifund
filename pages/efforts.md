@@ -1,3 +1,7 @@
+---
+layout: tl
+---
+
 # Efforts
 
 ![efforts](/img/efforts.jpg){:height="278px" width="590px"}
