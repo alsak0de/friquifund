@@ -1,4 +1,4 @@
 ---
-layout: linkedinlistin
+layout: linkedinlisting
 title: members
 ---
